@@ -1,0 +1,246 @@
+
+body{
+    background: #FFFFFF;
+    font-family: sans-serif;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 15%;
+    width: 100vw;
+    background-color: #151515;
+    color: white;
+    text-align: center;
+}
+.test,.test2,.test3 {
+    margin: 2% 5%;
+}
+.test {
+    /*border-color: aqua;
+    border-style: solid;
+    border-radius: 1%;*/
+    float: left;
+    height: 50%;
+    width: auto;
+}
+.test2 {
+    /*border-color: blue;
+    border-style: solid;
+    border-radius: 1%;*/
+    line-height: 120%;
+    font-size: 120%;
+    overflow: auto;
+    color: hsl(0, 0, 27);
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    float: left;
+    width: auto;
+    height: 50%;
+}
+.test3 {
+    /*border-color: purple;
+    border-style: solid;
+    border-radius: 1%;*/
+    float: left;
+    width: auto;
+    height: 30%;
+    margin: 2% 17%;
+}
+.button {
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: 100%;
+    
+}
+
+#igbutton:hover, #facebutton:hover, #twbutton:hover {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(22%) saturate(847%) hue-rotate(339deg) brightness(90%) contrast(83%);
+}
+
+.test4 {
+    width: auto;
+    height: 100%;
+}
+
+
+.hd1 {
+    border-radius: 1%;
+    width: auto;
+    height: 30%;
+}
+.stuff {
+    width: auto;
+    height: 40%;
+    margin-top: 4%;
+}
+.stuffbtn {
+    width: auto;
+    height: 100%;
+}
+.coloredbox {
+    width: 80%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-color: #D5966c;
+}
+.noncoleredbox {
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: black;
+}
+.noncoleredbox {
+    width: 10%;
+    height: 100%;
+}
+.mapbutton:hover .coloredbox {
+    background-color: black;
+}
+.mapbutton:hover .noncoleredbox {
+    background-color: #D5966c;
+}
+.mapbutton{
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: 30%;
+}
+.stupidtext{
+    width: auto;
+    height: 70%;
+    overflow: auto;
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: 0;
+    text-align: left;
+    font-size: 80%;
+}
+.black {
+    height: 100%;
+    float: left;
+    background-color: black;
+}
+.lightlogo{
+    float: right;
+    margin: 50% -32%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.hero {
+    width: auto;
+    height: 100%;
+    float: left;
+    z-index: -1;
+}
+.hd2 {
+    width: auto;
+    height: 1000;
+}
+.top {
+    width: 35%;
+    height: 20%;
+    padding-bottom: 1%;
+}
+.text {
+    width: 40%;
+    height: 97%;
+    float: left;
+}
+.headertext{
+    width: auto;
+    height: 30%;
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 150%;
+}
+.texttext {
+    width: auto;
+    height: 40%;
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 100%;
+    padding-top: 10%;
+}
+.grid1 {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+.left {
+    width: 20%;
+    height: 40.5%;
+    float: left;
+}
+.grid2 {
+    width: auto;
+    height: 80%;
+}
+.right {
+    width: 80%;
+    height: 20%;
+    float: left;
+}
+.grid3 {
+    width: auto;
+    height: 100%;
+}
+.rightbot {
+    width: 14%;
+    height: 20%;
+    float: left;
+    background-color: black;
+}
+.headerbot{
+    width: auto;
+    height: 20%;
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 100%;
+    color: white;
+}
+.textbot {
+    width: auto;
+    height: 40%;
+    font-family: 'Outfit Light', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 78%;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    footer{
+        height: 30%;
+    }
+    .test, .test2, .test3 {
+        height: 20%;
+    }
+    .test3 {
+        margin: 2% 5%;
+    }
+    .test2{
+        font-size: 80%;
+        line-height: 100%;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    footer{
+        height: 30%;
+    }
+    .test, .test2, .test3 {
+        height: 20%;
+        margin: 4%;
+    }
+    .test2{
+        font-size: 80%;
+        line-height: 100%;
+    }
+}
